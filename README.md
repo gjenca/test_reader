@@ -5,6 +5,7 @@
 1. Pred použitím musíte nainštalovať knižnicu `pyyaml`, ktorá sa možno volá vo Vašej distribúcii
    inak, možno `python3-yaml` alebo tak nejako.
 2. Takisto je treba nainštalovať pythonovskú knižnicu `pygments`.
+3. Musíte mať nainštalovanú aj knižnicu `ncurses`, ale tú takmer iste nainštalovanú máte.
 
 ## Ako testovať hromadne všetky testy
 
