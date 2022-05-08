@@ -94,7 +94,7 @@ class ResponseFromDict(Response):
         self.status=d['status']
         self.headers=d['headers']
         self.content=d['content']
-        if self.request.method=='LS':
+        if self.request.method in ('LS','SEARCH'):
             self.sort_content()
 
 class ResponseFromSocket(Response):
@@ -158,7 +158,7 @@ class ResponseFromSocket(Response):
             self.content="".join(content_lines)
         else:
             self.content=""
-        if self.request.method=='LS':
+        if self.request.method in ('LS','SEARCH'):
             self.sort_content()
 
 signal.alarm(TIMEOUT)
