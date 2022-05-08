@@ -1,0 +1,11 @@
+---
+method: SELECT
+headers: 
+  String: '"pitta'
+  File: "step2.txt"
+content: ""
+---
+status: 200 
+headers: {}
+content: ""
+
