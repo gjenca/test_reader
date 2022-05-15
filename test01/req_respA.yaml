@@ -2,14 +2,14 @@
 method: READ
 headers:
  File: "a.txt"
- From: "0"
- To: "2"
+ From: "1"
+ To: "3"
 content: ""
 ---
 status: 100
 headers:
   Lines: "2"
 content: |
-  Line 1 ahoj
   Line 2 dovi
+  Line 3 nieco ine
 

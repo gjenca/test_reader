@@ -1,0 +1,4 @@
+Line 1 ahoj
+Line 2 dovi
+Line 3 nieco ine
+Line 4 posledny riadok

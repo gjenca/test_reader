@@ -9,7 +9,9 @@ then
     WHICH="_$1"
 fi
 
-./getsource.sh "$WHICH"
+PATTERN="$2"
+
+./getsource.sh "$WHICH" | grep "$PATTERN"
 (
 cat << THEEND
 <!DOCTYPE html>

@@ -1,14 +1,15 @@
 ---
 method: READ
 headers:
- File: "b.txt"
- From: "1"
+ File: "a.txt"
+ From: "0"
  To: "2"
 content: ""
 ---
 status: 100
 headers:
-  Lines: "1"
+  Lines: "2"
 content: |
+  Line 1 ahoj
   Line 2 dovi
 
