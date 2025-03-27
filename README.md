@@ -23,13 +23,12 @@ git clone https://github.com/gjenca/test_reader.git
 
 ## Spúšťanie testov z nejakého intervalu
 
-Testov je už medzičasom hodne a čakať na všetky zaberá čas.
-
-Pomocou `-t` takto:
+Čakať na všetky testy zaberá čas,
+ak vám to vadí, pomocou `-t` takto:
 ```
-./runtests.sh -t 2 10
+./runtests.sh -t 2 3
 ```
-spustí iba `test02` až `test10`.
+spustíte iba `test02` až `test10`.
 
 ## Čo robiť ak niečo nejde
 
