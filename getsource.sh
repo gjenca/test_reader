@@ -18,7 +18,7 @@ while IFS=: read RIESENIE NAME ; do
     OUT="source/${NAME}.html"
     if [ \( ! -e "$OUT" \) -o \( "$RIESENIE" -nt "$OUT" \) ]; then
         echo "$RIESENIE" '->' "$OUT" > /dev/stderr
-        pygmentize -l python -f html -O full -O linenos -o "$OUT" $RIESENIE
+        pygmentize -l python -f html -O full -O linenos -o "$OUT" "$RIESENIE"
     fi
 done
 echo '>>> Done'
